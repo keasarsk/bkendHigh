@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: routePlan
+
+  # rabbitMQ的配置
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+
+
+server:
+  port: 8081
