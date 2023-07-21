@@ -3,15 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sk.bkendHigh</groupId>
-    <artifactId>high</artifactId>
+    <artifactId>bkendhigh</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>high</name>
+    <name>bkendhigh</name>
     <description>bkendHigh</description>
     <packaging>pom</packaging>
 
     <modules>
         <module>routePlan</module>
         <module>mix</module>
+        <module>register</module>
     </modules>
 
 </project>
